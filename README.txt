@@ -1,3 +1,13 @@
+This directory will soon have all the codes used in the Dwarfed Masses project to simulate and estimate the mass of a dwarf galaxy interacting with the Milky Way.
+
+The data can be accessed here: http://vo.aip.de/dwarfedmasses/
+
+The publication of this project and scientific details can be found here:
+http://www.nature.com/ncomms/2015/150702/ncomms8599/full/ncomms8599.html
+
+The main code is the bash script called mcmc_core_exam_public.sh
+
+
 ## ANALYSIS CODES
 ####################
 To only use the analysis codes on the provided binary files, you need to install the tipsylib within the orblib and have the following codes and the observed profile files for either the Carina or the Mock chains.
