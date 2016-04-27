@@ -54,7 +54,7 @@ outfig1=sys.argv[3]   #bulge figure
 # Assigning sun's coordinates        #                     
 ######################################
 xsun=8.5;ysun=0.0 ;zsun=0.0; vxsun=0.0; vysun=200.0; vzsun=0.0; sol_m=1e5*1.98892e30; G=6.67428*10**(-11)
-sol_m=2.325e9*1.989e30
+#sol_m=2.325e9*1.989e30
 
 ###################################################
 # Reading data from tipsy file and making arrays  #

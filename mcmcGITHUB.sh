@@ -204,7 +204,7 @@ mv convvel.dat orbx$o.dat
 python Ugur_orbit1.py orbx$o.dat orbxpast$o.dat
 #C23 From the final equilibrium file's haloo an bulgeo, it subtracts the c.o.m and it shifts it to orbit written in pkdgrav units in the halo and bulge file.[x=x-x_com_eq+x_orbit and vx=vx-vx_com_eq*1.5246+vx_orbit*1.5246]
 
-python myunits6goingtozero.py 200000 100000 100000 orbxpast$o.dat  comeq5.dat
+python units6goingtozeroGITHUB.py 200000 100000 100000 orbxpast$o.dat  comeq5.dat
 #Reads in the new (non-equil, real orbit) haloo, bulgeo and orbital parameters from 6gyrs ago(orbxpast0.dat) and from the equilibrium file(comeq5.dat)... Sorts particles by distances to the centre and shifts them to orbit in halo and bulge in pkdgrav units: so v[0.655km/s]
 
 ./a2b 1.0 1.0
@@ -734,7 +734,7 @@ rm initialeq$i.00005.dat
 ./adconvugur6gyrs 100.4029 -50.9661 102.0 $mualphanew $mudeltanew 223.1
 mv convvel.dat orbx$i.dat 
 python Ugur_orbit1.py orbx$i.dat orbxpast$i.dat
-python myunits6goingtozero.py 200000 100000 100000 orbxpast$i.dat comeq5$i.dat
+python units6goingtozeroGITHUB.py 200000 100000 100000 orbxpast$i.dat comeq5$i.dat
 
 ./a2b 1.0 1.0
 mv haloo halooorb$i

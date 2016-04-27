@@ -1,6 +1,6 @@
 This directory will soon have all the codes used in the Dwarfed Masses project to simulate and estimate the mass of a dwarf galaxy interacting with the Milky Way. The list is given below.
 
-For the moment it just has the main bash script for MCMC, the statistics code calculating chi-squared and the velocity dispersion code.
+For the moment it just has the main bash script for MCMC, the statistics code calculating chi-squared and the velocity dispersion code, the surface brightness (density) calculation code, and a couple of the analysis scripts to used in the end cleaning up data.
 
 The data can be accessed here: http://vo.aip.de/dwarfedmasses/
 
@@ -8,6 +8,13 @@ The publication of this project and scientific details can be found here:
 http://www.nature.com/ncomms/2015/150702/ncomms8599/full/ncomms8599.html
 
 
+
+
+
+
+
+
+####################
 ## ANALYSIS CODES
 ####################
 To only use the analysis codes on the provided binary files, you need to install the tipsylib within the orblib and have the following codes and the observed profile files for either the Carina or the Mock chains.
