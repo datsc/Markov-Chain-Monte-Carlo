@@ -6,7 +6,7 @@ myrangenGITHUB.py : the code generating the initial random numbers for the MCMC 
 stattestGITHUB.py : the statistics code calculating chi-squared 
 dispGITHUB.py: the velocity dispersion calculation code
 denGITHUB.py the surface brightness calculation code, 
-and a couple of the analysis scripts to used in the end cleaning up data.
+and one of the analysis scripts to used in the end whilst analysing data.
 
 
 
