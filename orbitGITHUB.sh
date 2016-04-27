@@ -10,8 +10,8 @@
 #PBS -q devel
 #PBS -m bea
 #PBS -M uu2@le.ac.uk
-#-o  /scratch/dp005/dc-ural1/C2C_ART1_2013/C2CART_TEST3/MODEL146/$JOB_NAME.o$JOB_ID
-#-e  /scratch/dp005/dc-ural1/C2C_ART1_2013/C2CART_TEST3/MODEL146/$JOB_NAME.e$JOB_ID
+#-o  /scratch/MODEL146/$JOB_NAME.o$JOB_ID
+#-e  /scratch/MODEL146/$JOB_NAME.e$JOB_ID
 #PBS -v PYTHONPATH=/home/dc-ural1/hannilib/
 #PBS -S /bin/bash
 
@@ -23,7 +23,7 @@ module load gcc
 module load python/2.7.3
 module load swig
 #======================================
-cd /scratch/C2CART_TEST3/MODEL146
+cd /scratch/MODEL146
 
 #!/bin/bash
 cp orbx0.dat orbitin1.dat
