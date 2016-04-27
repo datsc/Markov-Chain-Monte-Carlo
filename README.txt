@@ -1,6 +1,14 @@
 This directory will soon have all the codes used in the Dwarfed Masses project to simulate and estimate the mass of a dwarf galaxy interacting with the Milky Way. The list is given below.
 
-For the moment it just has the main bash script for MCMC, the statistics code calculating chi-squared and the velocity dispersion code, the surface brightness (density) calculation code, and a couple of the analysis scripts to used in the end cleaning up data.
+For the moment it just has the following codes:
+mcmcGITHUB.sh : main bash script for MCMC 
+myrangenGITHUB.py : the code generating the initial random numbers for the MCMC parameter space random walk  
+stattestGITHUB.py : the statistics code calculating chi-squared 
+dispGITHUB.py: the velocity dispersion calculation code
+denGITHUB.py the surface brightness calculation code, 
+and a couple of the analysis scripts to used in the end cleaning up data.
+
+
 
 The data can be accessed here: http://vo.aip.de/dwarfedmasses/
 
